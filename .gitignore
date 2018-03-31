@@ -5,3 +5,4 @@ ExamplesMods
 **/obj
 **/*.lnk
 **/*.dll
+.vs
