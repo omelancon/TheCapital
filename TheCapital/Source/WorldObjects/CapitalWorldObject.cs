@@ -4,23 +4,13 @@ using RimWorld.Planet;
 using UnityEngine;
 using Verse;
 
-namespace TheCapital
+namespace TheCapital.WorldObjects
 {
-    public class CapitalWorldObject : MapParent
+    public class CapitalWorldObject : Settlement
     {
         public override void Print(LayerSubMesh subMesh)
         {
             PrintQuadTangentialToPlanet(DrawPos, DrawPos, 0.7f * Find.WorldGrid.averageTileSize, 0.015f, subMesh);
-        }
-        
-        public override IEnumerable<FloatMenuOption> GetFloatMenuOptions(Caravan caravan)
-        {
-            var options = new List<FloatMenuOption>
-            {
-                new FloatMenuOption("Focken shieeett", new Action(() => { Log.Message("EAT SHIEEETT"); }))
-            };
-            
-            return options;
         }
         
         public static void PrintQuadTangentialToPlanet(Vector3 pos, Vector3 posForTangents, float size, float altOffset, LayerSubMesh subMesh, bool counterClockwise = false, bool randomizeRotation = false, bool printUVs = true)

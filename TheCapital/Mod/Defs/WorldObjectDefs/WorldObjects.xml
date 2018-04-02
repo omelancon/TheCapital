@@ -8,10 +8,7 @@
         <expandingIcon>true</expandingIcon>
         <expandingIconTexture>CapitalWorld/WorldObjects/Capital</expandingIconTexture>
         <expandingIconPriority>50</expandingIconPriority>
-        <worldObjectClass>TheCapital.CapitalWorldObject</worldObjectClass>
-        <comps>
-            <li Class="WorldObjectCompProperties_Abandon" />
-        </comps>
+        <worldObjectClass>TheCapital.WorldObjects.CapitalWorldObject</worldObjectClass>
     </WorldObjectDef>
 
     <WorldObjectDef>
@@ -20,7 +17,7 @@
         <description>High density housing.</description>
         <texture>CapitalWorld/WorldObjects/CapitalDowntown</texture>
         <expandingIcon>false</expandingIcon>
-        <worldObjectClass>TheCapital.CapitalWorldObject</worldObjectClass>
+        <worldObjectClass>TheCapital.WorldObjects.Downtown</worldObjectClass>
     </WorldObjectDef>
     
     <WorldObjectDef>
@@ -29,7 +26,7 @@
         <description>Low density housing.</description>
         <texture>CapitalWorld/WorldObjects/CapitalHousing</texture>
         <expandingIcon>false</expandingIcon>
-        <worldObjectClass>TheCapital.CapitalWorldObject</worldObjectClass>
+        <worldObjectClass>TheCapital.WorldObjects.CapitalWorldObject</worldObjectClass>
     </WorldObjectDef>
 
     <WorldObjectDef>
@@ -38,7 +35,7 @@
         <description>Sprawling farmland large enough to feed thousands.</description>
         <texture>CapitalWorld/WorldObjects/CapitalFarm</texture>
         <expandingIcon>false</expandingIcon>
-        <worldObjectClass>TheCapital.CapitalWorldObject</worldObjectClass>
+        <worldObjectClass>TheCapital.WorldObjects.CapitalWorldObject</worldObjectClass>
     </WorldObjectDef>
 
     <WorldObjectDef>
@@ -47,7 +44,7 @@
         <description>A massive commercial district where most citizens of the capital must work.</description>
         <texture>CapitalWorld/WorldObjects/CapitalFactory</texture>
         <expandingIcon>false</expandingIcon>
-        <worldObjectClass>TheCapital.CapitalWorldObject</worldObjectClass>
+        <worldObjectClass>TheCapital.WorldObjects.CapitalWorldObject</worldObjectClass>
     </WorldObjectDef>
 
     <WorldObjectDef>
@@ -56,7 +53,7 @@
         <description>A large heavily guarded concrete building with two massive cooling tower surrounded by security installations.</description>
         <texture>CapitalWorld/WorldObjects/CapitalPowerPlant</texture>
         <expandingIcon>false</expandingIcon>
-        <worldObjectClass>TheCapital.CapitalWorldObject</worldObjectClass>
+        <worldObjectClass>TheCapital.WorldObjects.CapitalWorldObject</worldObjectClass>
     </WorldObjectDef>
 
     <WorldObjectDef>
@@ -65,7 +62,7 @@
         <description>A large heavily guarded concrete building with two massive cooling tower surrounded by security installations.</description>
         <texture>CapitalWorld/WorldObjects/CapitalWindFarm</texture>
         <expandingIcon>false</expandingIcon>
-        <worldObjectClass>TheCapital.CapitalWorldObject</worldObjectClass>
+        <worldObjectClass>TheCapital.WorldObjects.CapitalWorldObject</worldObjectClass>
     </WorldObjectDef>
 
     <WorldObjectDef>
@@ -74,6 +71,6 @@
         <description>A very large walled area that seem to contain an airstrip, multiple hangars and several baracks. Silo doors can be seen next to a massive and ominous concrete building</description>
         <texture>CapitalWorld/WorldObjects/CapitalDefenseBase</texture>
         <expandingIcon>false</expandingIcon>
-        <worldObjectClass>TheCapital.CapitalWorldObject</worldObjectClass>
+        <worldObjectClass>TheCapital.WorldObjects.CapitalWorldObject</worldObjectClass>
     </WorldObjectDef>
 </Defs>

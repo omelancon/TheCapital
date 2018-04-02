@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <MapGeneratorDef>
+        <defName>TheCapitalMap</defName>
+        <selectionWeigth>1</selectionWeigth>
+    </MapGeneratorDef>
+    
+    <GenStepDef>
+        <defName>CapitalTerrain</defName>
+        <linkWithMapGenerator>TheCapitalMap</linkWithMapGenerator>
+        <order>10</order>
+        <genStep Class="GenStep_CapitalTerrain"/>
+    </GenStepDef>
+    
+    <GenStepDef>
+        <defName>CapitalRoadNetwork</defName>
+        <linkWithMapGenerator>TheCapitalMap</linkWithMapGenerator>
+        <order>782</order>
+        <genStep Class="TheCapital.MapGenSteps.GenStep_CapitalRoadNetwork"/>
+    </GenStepDef>
+    
+</Defs>
