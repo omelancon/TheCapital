@@ -4,7 +4,7 @@ using RimWorld.Planet;
 using UnityEngine;
 using Verse;
 
-namespace TheCapital
+namespace TheCapital.WorldObjects
 {
     public class CapitalWorldObject : MapParent
     {
